@@ -31,7 +31,11 @@ import java.util.Scanner;
 		    	if(counter == 10){
 		    	System.out.println("No Match Found");
 		    	break;
-		   }
-	    }
-	 }
-  }
+		   		}
+	    }//end while
+
+	    //Link to Index
+	    System.out.println();
+	    Index.main(null);
+	 }//end main
+  }//end class

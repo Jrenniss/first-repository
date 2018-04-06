@@ -24,5 +24,7 @@ public class Iterations{
 
 	    	    System.out.println();
 	   	 }
-	}
-}
+	   	 //Link to Other Options Menu
+	   	 OtherOptionsMenu.main(null);
+	}//end main
+}//end class

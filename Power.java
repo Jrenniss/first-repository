@@ -26,6 +26,9 @@ import java.util.Scanner;
 				System.out.println("Enter base <negative to quit>: ");
 					base = input.nextInt();
 		}
+		//Link to Other Options Menu
+		System.out.println();
+		OtherOptionsMenu.main(null);
 	}//end main
 
 	public static int integerPower(int base, int exp){

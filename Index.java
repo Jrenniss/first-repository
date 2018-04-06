@@ -5,8 +5,10 @@ public class Index{
   public static void main(String[] args){
     Scanner input = new Scanner(System.in);
 
-    System.out.println("Select an option (1-4):");
-    System.out.println();
+    System.out.println("*******************************");
+    System.out.println("        Project Menu");
+    System.out.println("Select an option (1-14):");
+   	    System.out.println();
     System.out.println("1. Break");
     System.out.println("2. Switch");
     System.out.println("3. Methods");
@@ -17,9 +19,13 @@ public class Index{
     System.out.println("8. Try and Catch");
     System.out.println("9. Enhanced For");
     System.out.println("10. Search Multi-Dimensional Array");
-    System.out.println("4. Exit");
+    System.out.println("11. Convert - Assignment Exercise 1");
+    System.out.println("12. Search - Assignment Exercise 2");
+  	System.out.println("*******");
+    System.out.println("13.Other Options Menu");
+    System.out.println("14. Exit");
+		System.out.println();
 
-    	System.out.println();
 
     System.out.print("Choice: ");
     int choice = input.nextInt();
@@ -28,7 +34,7 @@ public class Index{
 		switch(choice){
 		  case 1:
 			System.out.println("Break Lab");
-			Break_Ex2.main(null); //static method call, no instance required.
+			Break_Ex2.main(null);
 			break;
 		  case 2:
 			System.out.println("Switch Lab");
@@ -43,39 +49,53 @@ public class Index{
 	      case 4:
 			System.out.println("Shadowing Lab");
 			System.out.println();
-			Methods.main(null);
+			Shadow.main(null);
 			break;
 		  case 5:
 			System.out.println("Overloading Lab");
 			System.out.println();
-			Methods.main(null);
+			Arithematic.main(null);
 			break;
 		  case 6:
 			System.out.println("First Array Lab");
 			System.out.println();
-			Methods.main(null);
+			FirstArray.main(null);
 			break;
 		  case 7:
 			System.out.println("Second Array Lab");
 			System.out.println();
-			Methods.main(null);
+			SecondArray.main(null);
 			break;
 		  case 8:
 			System.out.println("Try and Catch Lab");
 			System.out.println();
-			Methods.main(null);
+			TryCatch.main(null);
 			break;
 		  case 9:
 			System.out.println("Enhanced For Lab");
 			System.out.println();
-			Methods.main(null);
+			EnhancedFor.main(null);
 			break;
 		  case 10:
 			System.out.println("Search Multi-Dimensional Array Lab");
 			System.out.println();
-			Methods.main(null);
+			TwoD_Array.main(null);
 			break;
 		  case 11:
+			System.out.println("Convert - Assignment Exercise 1");
+			System.out.println();
+			Convert.main(null);
+			break;
+		  case 12:
+			System.out.println("Search Multi-Dimensional Array Lab");
+			System.out.println();
+			Search.main(null);
+			break;
+		  case 13:
+			System.out.println();
+			OtherOptionsMenu.main(null);
+			break;
+		  case 14:
 			System.out.println("Exiting....");
 			break;
 		  default:

@@ -1,6 +1,7 @@
 /**
-Name: ContinueTest
+Name: Continue
 Description: Rewrite code as seen
+			- Excludes number from list
 Created By: Jennifer Ryan
 Created On: 27/02/2018
 */
@@ -22,6 +23,10 @@ public class Continue{
 				continue;
 				}
 				System.out.println(counter);
-			}
-	}
-}
+				}
+
+
+		//Link to Other Options Menu
+		OtherOptionsMenu.main(null);
+	}//end main
+}//end class

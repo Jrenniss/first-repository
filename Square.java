@@ -17,14 +17,16 @@ import java.util.Scanner;
 
 			squareOfAsterisks(size);
 
+		//Link to Index
+		System.out.println();
+		OtherOptionsMenu.main(null);
 	}//end main
 
-	public static void squareOfAsterisks(int size){
+		public static void squareOfAsterisks(int size){
 		 for(int row = 1; row <= size; row++){
 		 	for(int col = 1; col <= size; col++)
 		 		System.out.print("*");
-
 		 			System.out.println();
+		 			}
 				}
-		}
-}
+}//end class

@@ -23,6 +23,9 @@ import java.util.Scanner;
 				number = input.nextInt();
 			}
 
+			//Link to Othe Options Menu
+			System.out.println();
+			OtherOptionsMenu.main(null);
 		}//end main
 
 		public static int reverseDigits(int number){
@@ -35,10 +38,8 @@ import java.util.Scanner;
 				reverseNumber = reverseNumber * 10 + placeValue;
 				}
 				return reverseNumber;
-
-		Index.main(null);
-		}
-	}
+				}//end method
+	}//end class
 
 
 

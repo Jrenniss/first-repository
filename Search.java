@@ -46,34 +46,60 @@ import java.util.Scanner;
 					  { "Prescott Bartlett", "Technical Author", "London", "3606", "2011/05/07", "$145,000" },
 					  { "Gavin Cortez", "Team Leader", "San Francisco", "2860", "2008/10/26", "$235,500" },
 					  { "Martena Mccray", "Post-Sales support", "Edinburgh", "8240", "2011/03/09", "$324,050" },
-						  { "Unity Butler", "Marketing Designer", "San Francisco", "5384", "2009/12/09", "$85,675" }
+					  { "Unity Butler", "Marketing Designer", "San Francisco", "5384", "2009/12/09", "$85,675" }
 				};
 
 				Scanner input = new Scanner(System.in);
 
-				System.out.println("Please enter your search: ");
-					String searchStr = input.nextLine();
+			while(true){
+
+				System.out.println("To Enter a Search, Press 1");
+				System.out.println("To Exit to Project Menu, Press 2");
+				System.out.println("Choice: ");
+					int choice = input.nextInt();
+				System.out.println();
+
+
 					int match = 0;
+					String searchStr = input.nextLine();
 
+						switch(choice)
+							{
+							  case 1:
+							  	System.out.println("Please enter your search: ");
+									    searchStr = input.nextLine();
+
+								break;
+							  case 2:
+								Index.main(null);
+								break;
+
+								default:
+								System.out.println( "Invalid Choice" );
+							}//end of menu choice switch
+
+
+
+						//data set search method
 						System.out.println();
-						for(int i = 0; i < dataSet.length; i++){
-							for(int j = 0; j < dataSet[i].length; j++){
-								if(searchStr.equals(dataSet[i][j])){
-									match++;
+							for(int i = 0; i < dataSet.length; i++){
+								for(int j = 0; j < dataSet[i].length; j++){
+									if(searchStr.equals(dataSet[i][j])){
+										match++;
 
-
-						System.out.println("Name: "+dataSet[i][0]+"\nJob: "+dataSet[i][1]+"\nCity: "+dataSet[i][2]+"\nZip Code: "+dataSet[i][3]+"\nStart Date: "+dataSet[i][4]+"\nSalary: "+dataSet[i][5]);
-						System.out.println();
+									//Search result display method when matched
+									System.out.println("Name: "+dataSet[i][0]+"\nJob: "+dataSet[i][1]+"\nCity: "+dataSet[i][2]+"\nZip Code: "+dataSet[i][3]+"\nStart Date: "+dataSet[i][4]+"\nSalary: "+dataSet[i][5]);
+										System.out.println();
 
 									}
 								}
 							}
-							System.out.println();
+
+								System.out.println();
 							System.out.println("Records with match: "+match);
+								System.out.println();
 
-							//Link to Index
-							System.out.println();
-							Index.main(null);
-						}//end main
+						}//end of while - to show menu when finished search
+			}//end main
 
-					}//end class
+	}//end class

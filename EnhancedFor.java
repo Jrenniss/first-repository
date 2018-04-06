@@ -17,6 +17,8 @@ public class EnhancedFor{
 		}
 		System.out.println("Sum of the array values is: "+total);
 
+		//Link to Index
+		System.out.println();
 		Index.main(null);
-	}
-}
+	}//end main
+}//end class

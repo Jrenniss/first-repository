@@ -15,5 +15,8 @@ public class ContinueTest{
 				System.out.println(count);
 				}
 				System.out.println("\nUsed to continue to skip printing 5");
-	}
-}
+
+		//Link to Other Options Menu
+		OtherOptionsMenu.main(null);
+	}//end main
+}//end class

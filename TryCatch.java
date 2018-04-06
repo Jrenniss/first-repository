@@ -11,13 +11,16 @@ public class TryCatch{
 		int[] x = {7, 6, 11, 15, 19};
 
 	try{
-	System.out.println("Value is stored in index 5 is: "+x[5]);
+		System.out.println("Value is stored in index 5 is: "+x[5]);
 		}catch(ArrayIndexOutOfBoundsException e){
 			System.out.println("There was an ArrayIndexxOutOfBoundsException");
 			}catch(Exception e){
-	System.out.println("Warning: Some other exceptions");
+			System.out.println("Warning: Some other exceptions");
 			}
-		System.out.println("End of Program");
+			System.out.println("End of Program");
+
+		//Link to Index
+		System.out.println();
 		Index.main(null);
-	}
-}
+	}//end main
+}//end class

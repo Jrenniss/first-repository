@@ -1,5 +1,5 @@
 /**
-Name: Convert
+Name: Convert - Easter Assignment 1
 Description: -interger method named Celsisu, which returns the celsius equivalent of a fahrenheit temperture.
 	     -interger method named fahernheit that returns the fahrenheit equivalent of a celisius tempeture.
 	     -with the two created methods an application is written that enables the user to enter a fahrenheit
@@ -26,34 +26,34 @@ import java.util.Scanner;//Scanner import
 					System.out.println( "Menu" );
 					System.out.println( "Enter 1 for Fahrenheit to Celsius" );
 					System.out.println( "Enter 2 for Celsius to Fahrenheit" );
-					System.out.println( "Enter 3 to Exit\n" );
+					System.out.println( "Enter 3 to Exit to Project Menu\n" );
 					System.out.print( "Choice: " );//prompt user for choice
 						choice = input.nextInt();
 
-
+							//Menu choice
 							switch ( choice )
 							{
-							case 1:// converts celsius to fahrenheit
-								System.out.println("Enter Fahrenheit temperature: " );
-									temp = input.nextInt();
-									convert = celsius( temp );
-								System.out.print(temp+" degrees Fahrenheit = "+convert+" degrees Celsius\n" );
-								System.out.println();
-							break;
+								case 1:// converts celsius to fahrenheit
+									System.out.println("Enter Fahrenheit temperature: " );
+										temp = input.nextInt();
+										convert = celsius( temp );
+									System.out.print(temp+" degrees Fahrenheit = "+convert+" degrees Celsius\n" );
+									System.out.println();
+								break;
 
-							case 2:// converts fahrenheit to celsius
-								System.out.println("Enter Celsius temperature: " );
-									temp = input.nextInt();
-									converts = fahrenheit( temp );
-								System.out.printf(temp+" degrees Celsius = "+converts+" degrees Fahrenheit \n" );
-								System.out.println();
-							break;
+								case 2:// converts fahrenheit to celsius
+									System.out.println("Enter Celsius temperature: " );
+										temp = input.nextInt();
+										converts = fahrenheit( temp );
+									System.out.printf(temp+" degrees Celsius = "+converts+" degrees Fahrenheit \n" );
+									System.out.println();
+								break;
 
-							case 3:
-							break;
+								case 3:
+								break;
 
-							default:
-							System.out.println( "Invalid Choice" );
+								default:
+								System.out.println( "Invalid Choice" );
 							} // end of switch
 					} while( choice != 3);
 
@@ -61,17 +61,17 @@ import java.util.Scanner;//Scanner import
 				System.out.println();
 				Index.main(null);
 		} // end main
-
+						//Celsius to Fahrenheit conversion
 						public static double fahrenheit(double celsius){
 							double fahrenheit;
 							fahrenheit =  Math.round (9.0 / 5.0 * (celsius + 32));
 							return fahrenheit;
 							}
-
+						//Fahrenheit to Celsius conversion
 						public static double celsius(double fahrenheit){
 							double celsius;
 							celsius = Math.round (5.0 / 9.0 * (fahrenheit - 32));
 							return celsius;
 							}
 
- 			}//end class
+ }//end class

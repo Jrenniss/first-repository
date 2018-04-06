@@ -26,15 +26,18 @@ import java.util.Scanner;
 		    	     System.out.println("Game Over");
 		    	     break;
 		    	     }
-		    	   }
-		    	 }
-		       }
-		    	
+		    	   }//end while
 
-		    	
-		    	
-		    	
-		   
-	    
-	 
-  
+					   //Link to Index
+					   System.out.println();
+					   Index.main(null);
+		    	 }//end main
+		       }//end class
+
+
+
+
+
+
+
+

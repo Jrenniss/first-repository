@@ -10,16 +10,21 @@ public class TwoD_Array{
 
 		int[][] x = {{1,2},{3,4}};
 
-		for(int[] i: x){
-			for(int j: i)
+		System.out.println("Using Standard For Loop to print values");
+			for(int[] i: x){
+				for(int j: i)
 				System.out.println(j);
-			}
+				}
 
 			System.out.println();
 
-		for(int i = 0; i < x.length;i++){
-			for(int j = 0; j< x[i].length; j++)
+		System.out.println("Using Enhanced For Loop to print values");
+			for(int i = 0; i < x.length;i++){
+				for(int j = 0; j< x[i].length; j++)
 				System.out.println(x[i][j]);
-		}
-	}
-}
+				}
+
+		//Link to Index
+		Index.main(null);
+	}//end main
+}//end class

@@ -46,6 +46,8 @@ public class Sales{
 	productId = input.nextInt();
 	System.out.println("Total value of products sold: "+Math.round((total * 10000.0)/10000.0));
 	}
-
+		//Link to Other Options Menu
+		System.out.println();
+		OtherOptionsMenu.main(null);
      }
 }
