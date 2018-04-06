@@ -1,7 +1,7 @@
 # first-repository
 My First GitHub Repository - Jennifer Ryan G00362599
 
-Project Description
+Project Description :
 After the creation of a GitHub account and the the setup of a repository,
 a number of exercises were given in conjunction with lab exercises.
 Those exercises included the creation and modifiction of a number of java files.
@@ -14,17 +14,17 @@ repositorys of individual GitHub accounts.
 Cloning Repository Instructions 
 Using git bash enter the following commands:
 
-1. cd /c/users/<GMIT ID>/downloads/
+1. cd /c/users/<GMIT ID>/downloads/ :
 	the above command opens a path to the download file of the GMIT ID user 	
-2. git init
+2. git init :
 	the above command initates a subdirectory that contains all necessay repository flies 
-3. rm -rf first-repository
+3. rm -rf first-repository :
 	the above commad removes any file of the same name to the trash
-4. git clone https://github.com/Jrenniss/first-repository.git
+4. git clone https://github.com/Jrenniss/first-repository.git :
 	the above command clone the repository of the user <Jrenniss> and the has the name <first-repository.git>
-5. cd first-repository 
+5. cd first-repository :
 	the above command opens a path in to the first-repository folder
-6. ls
+6. ls :
 	the above command displays the contents of the open folder. Eg -first-repository
 
 Running the Code
