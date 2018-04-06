@@ -11,7 +11,7 @@ Two exercises were given just before Easter break to be completed and allow modi
 to be made to necessary flies. Eg- Index.java. These additions were then to be updated on
 repositorys of individual GitHub accounts.
 
-Cloning Repository Instructions 
+Cloning Repository Instructions : 
 Using git bash enter the following commands:
 
 1. cd /c/users/<GMIT ID>/downloads/ :
@@ -27,7 +27,7 @@ Using git bash enter the following commands:
 6. ls :
 	the above command displays the contents of the open folder. Eg -first-repository
 
-Running the Code
+Running the Code :
 To run the code cloned from GitHub:
 
 1. Open file explorer
