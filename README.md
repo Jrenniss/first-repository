@@ -1,5 +1,5 @@
 # first-repository
-My First GitHub Repository - Jennifer Ryan G00362599
+My First GitHub Repository - Jennifer Ryan 
 
 Project Description :
 After the creation of a GitHub account and the the setup of a repository,
