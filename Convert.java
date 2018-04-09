@@ -15,9 +15,9 @@ import java.util.Scanner;//Scanner import
 
 			Scanner input = new Scanner( System.in );
 				int choice;
-				double temp;
-				double convert;
-				double converts;
+				int temp;
+				int convert;
+				int converts;
 
 
 				do{
@@ -62,15 +62,15 @@ import java.util.Scanner;//Scanner import
 				Index.main(null);
 		} // end main
 						//Celsius to Fahrenheit conversion
-						public static double fahrenheit(double celsius){
-							double fahrenheit;
-							fahrenheit =  Math.round (9.0 / 5.0 * (celsius + 32));
+						public static int fahrenheit(int celsius){
+							int fahrenheit;
+							fahrenheit =  (int) (9.0 / 5.0 * (celsius + 32));
 							return fahrenheit;
 							}
 						//Fahrenheit to Celsius conversion
-						public static double celsius(double fahrenheit){
-							double celsius;
-							celsius = Math.round (5.0 / 9.0 * (fahrenheit - 32));
+						public static int celsius(int fahrenheit){
+							int celsius;
+							celsius = (int) (5.0 / 9.0 * (fahrenheit - 32));
 							return celsius;
 							}
 
